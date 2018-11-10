@@ -39,7 +39,7 @@ template: default
 ---
 template: default
 
-### presentation prepared based on following resources:
+### prepared based on following resources:
 
 .left[.black[
 - https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016
@@ -51,6 +51,13 @@ template: default
 - https://www.certdepot.net/death-of-docker/
 - https://jpetazzo.github.io/2017/02/24/from-dotcloud-to-docker/
 - https://blog.docker.com/2015/12/containerd-daemon-to-control-runc/
+]]
+---
+template: default
+
+### prepared based on following resources:
+
+.left[.black[
 - https://hackernoon.com/docker-containerd-standalone-runtimes-heres-what-you-should-know-b834ef155426
 - https://blog.ycombinator.com/solomon-hykes-docker-dotcloud-interview/
 - https://sstallion.blogspot.com/2010/08/opensolaris-is-dead.html
