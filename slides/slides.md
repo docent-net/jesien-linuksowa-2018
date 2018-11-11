@@ -342,7 +342,7 @@ template: default
 .left[.black[
 - container manager build on lxc
 - commercial support by Canonical
-- https://linuxcontainers.org/ - ikonka facepalma przy URLu z komentarzem, ze jak mozna :)
+- https://linuxcontainers.org/
 - https://github.com/lxc/lxd
 - fast as no virtualization
 - is used e.g. used by chromebooks to run linux gui apps (see Project Crostini. https://blog.simos.info/a-closer-look-at-chrome-os-using-lxd-to-run-linux-gui-apps-project-crostini/)
@@ -614,7 +614,7 @@ template: default
 ---
 template: default
 
-### 2018: podman
+### 2018: systemd portable services
 
 .left[.black[
 - At devcon announced concept by Lennart Poettering
@@ -654,7 +654,7 @@ template: default
 
 .left[.black[
 - what is a Linux container?
-  - "Containers are Linux—Linux is Containers" (https://opensource.com/article/18/1/history-low-level-container-runtimes)
+  - "Containers are Linux—Linux is Containers"
   - resource limits (cgroups)
   - security kind separation (lsms)
   - virtual separation (namespaces)
@@ -1191,7 +1191,7 @@ template: default
 
 ### podman: extras
 
-.left[black[                          
+.left[.black[                          
 - sd_notify
 - socket activation
 - no Docker volumes for now (on roadmap)
@@ -1264,7 +1264,7 @@ template: default
 .left[.black[
 - like in systemd-nspawn
 - mounting other filesystems
-  - not sure, asked Lennart
+  - BindPath=
 ]]
 ---
 template: default
@@ -1327,6 +1327,7 @@ template: default
   - Does you service/job/application need resource isolation? Will there be more than 1 application on same host?
     - hint: don't use caps; use minimum resources instead
   - Does it need to be cross - platform because developers work on Windows / Macs?
+  - Is your service/job/application stateless or stateful?
   - Do you need container managers or ochestration platforms?
   - Do you need full OS inside?
   - What logging requirements do you have?
