@@ -28,7 +28,7 @@ template: left
 - history of UNIX / Linux process and resources isolation
 - technology wrap up
 - What kind pf problems containers should resolve?
-- Technologies walkthrough
+- OCIs walkthrough walkthrough
 - Summary
 
 ---
@@ -742,7 +742,7 @@ template: default
 ---
 template: default
 
-### Technologies walkthrough
+### OCIs walkthrough
 
 .left[.black[
 - lxc & lxd
