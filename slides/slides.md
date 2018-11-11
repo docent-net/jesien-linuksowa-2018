@@ -352,6 +352,19 @@ template: default
 ---
 template: default
 
+### 2014: shoebox (Grzesiek Nosek <3 )
+
+.left[.black[
+- https://github.com/gnosek/shoebox
+- side project
+- learning one?
+- Python
+- interesting to study how one can build something very, very simple
+]]
+
+---
+template: default
+
 ### 2015: CNCF (Cloud Native Computing Foundation) / OCI
 
 .left[.black[
@@ -1429,6 +1442,9 @@ try it yourself. today.
 
 ### thank you!
 
-@docent-net<br>
+https://maciej.lasyk.info/slides/jesien-linuksowa-2018/
+
+github/docent-net/<br>
+twitter@docent-net<br>
 https://maciej.lasyk.info<br>
 https://dlugodystansowy.pl
