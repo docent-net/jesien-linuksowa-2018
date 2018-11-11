@@ -470,6 +470,7 @@ template: default
   - Complete operator portal (web app)
   - Robust and observable service oriented architecture (implemented primarily in Node.js)
   - Automated USB key installation
+- btw: do see [Bryan Cantrill](https://www.youtube.com/channel/UCBBIgxO-8jgVZpsj6uk4aVA) talks if u don't know him yet!
 ]]
 
 ---
